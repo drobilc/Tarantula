@@ -1,5 +1,7 @@
 # Tarantula
 
+Proof of concept: Parse websites using Python decorators.
+
 ## Examples
 
 ### Example 1: extract links from page

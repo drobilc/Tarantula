@@ -34,8 +34,6 @@ def select_all(css, key=None):
                 return extraction_function(element)
 
             return key_name, list(map(safe_extraction_function, elements))
-        
-        outer_extraction_function.__name__ = extraction_function.__name__
 
         return outer_extraction_function
 
